@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'regular';
+    text-decoration: none;
+}
+
+body {
+    width: 1920px;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 144px;
+    z-index: 999;
+}
+
+.logo {
+    height: 72px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 999;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 72px;
+    background-color: #26061E;
+    width: 1920px;
+    margin-top: 72px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    width: 210px;
+    border: black solid;
+    text-align: center;
+}
+
+li h6 a:hover {
+    color: aqua;
+}
+
+.active {
+    border-bottom: solid white 2px;
+}
+
+.long {
+    width: 260px;
+    margin-right: 58px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search {
+    width: 100%;
+    border-radius: 15px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 26px;
+}
+
+main {
+    margin: 0 330px 72px;
+}
+
+section {
+    margin-bottom: 72px;
+}
+
+article {
+    transform: translateY(-100px);
+    margin-left: 56px;
+}
+
+#bg {
+    background-image: url("../images/aboutHeader.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1080px;
+    margin-top: 144px;
+}
+
+#coin {
+    width: 120px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 300px;
+    transition: 1s ease-in-out;
+}
+
+#coin:hover {
+    transform: translate(-50%, -50%);
+    transition: 1s ease-in-out;
+}
+
+#playing {
+    height: 896px;
+    width: 1259px;
+    background-image: url("../images/peoplePlaying.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 56px;
+    padding-top: 736px;
+    color: white;
+}
+
+#gameOver {
+    height: 1037px;
+    width: 1037px;
+    margin-left: auto;
+    background-image: url("../images/gameOver.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#jump {
+    height: 619px;
+    width: 825px;
+    margin-top: 144px;
+    margin-bottom: 0;
+}
+
+#joinUs {
+    height: 600px;
+    padding: 56px;
+}
+
+.logo3 {
+    position: absolute;
+    width: 310px;
+    right: 850px;
+    transform: translateY(-30px)
+}
+
+.console {
+    position: absolute;
+    display: grid;
+    right: 400px;
+    top: 4000px;
+}
+
+.cart1 {
+    width: 260px;
+    height: auto;
+    margin: 0 auto;
+    transition: 1s ease-in-out;
+}
+
+.cart1:hover {
+    transform: translateY(376px);
+    transition: 1s ease-in-out;
+}
+
+.cart2 {
+    width: 260px;
+    height: auto;
+    margin: 0 auto;
+    transform: translateY(-90px);
+    transition: 1s ease-in-out;
+}
+
+.cart2:hover {
+    transform: translateY(211px);
+    transition: 1s ease-in-out;
+}
+
+.cart3 {
+    width: 260px;
+    height: auto;
+    margin: 0 auto;
+    transform: translateY(-180px);
+    transition: 1s ease-in-out;
+}
+
+.cart3:hover {
+    transform: translateY(47px);
+    transition: 1s ease-in-out;
+}
+
+.con {
+    width: 400px;
+    transform: translateY(-50px)
+}
+
+footer {
+    background-color: #26061E;
+    height: 89px;
+    color: white;
+    padding-left: 330px;
+    display: flex;
+}
+
+footer section {
+    margin-left: auto;
+    margin-right: 330px;
+}
+
+footer section img {
+    height: 48px;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+span {
+    background-color: white;
+    border-radius: 9px;
+}
+
+#over {
+    margin-top: 180px;
+    transform: translateX(-170px);
+}
+
+li a {
+    color: white;
+}
+
+h2 {
+    position: absolute;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    padding-top: 120px;
+    font-weight: 400;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 480px;
+    font-size: 20px;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 88px;
+}
+
+h6 {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 2.4em;
+    color: white;
+}
+
+p {
+    margin-top: 144px;
+    width: 542px;
+}
+
+a {
+    color: black;
+    font-weight: 300;
+}

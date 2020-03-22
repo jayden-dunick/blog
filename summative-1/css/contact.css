@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'regular';
+    text-decoration: none;
+}
+
+body {
+    width: 1920px;
+}
+
+main {
+    margin: 144px 330px 72px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: 170px 43px 43px;
+    grid-gap: 49px;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 144px;
+    z-index: 999;
+}
+
+.logo {
+    height: 72px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 999;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 72px;
+    background-color: #26061E;
+    width: 1920px;
+    margin-top: 72px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    width: 210px;
+    border: black solid;
+    text-align: center;
+}
+
+li h6 a:hover {
+    color: aqua;
+}
+
+.active {
+    border-bottom: solid white 2px;
+}
+
+.long {
+    width: 260px;
+    margin-right: 58px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search {
+    width: 100%;
+    border-radius: 15px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 26px;
+}
+main {}
+
+section {}
+
+article {
+    border: black solid;
+}
+
+.contact {
+    margin: 0 auto;
+    grid-column: 1/13;
+}
+
+.nameCon {
+    grid-column: 1/7;
+}
+
+.name {
+    border-radius: 25px;
+    border: solid black;
+    height: 43px;
+    padding: 8.6px;
+    width: 100%
+}
+
+.emailCon {
+    grid-column: 7/13;
+}
+
+.email {
+    border-radius: 25px;
+    border: solid black;
+    height: 43px;
+    padding: 8.6px;
+    width: 100%;
+}
+
+.reasonCon {
+    grid-column: 1/13;
+}
+
+.reason {
+    border-radius: 25px;
+    border: solid black;
+    height: 43px;
+    padding: 8.6px;
+    width: 100%;
+}
+
+.descriptionCon {
+    grid-column: 1/13;
+}
+
+.description {
+    height: 267px;
+    border-radius: 25px;
+    border: solid black;
+    padding: 8.6px;
+    grid-column: 1/13;
+    width: 100%;
+    padding-bottom: 240px;
+}
+
+button {
+    grid-column: 11/13;
+    height: 43px;
+    border-radius: 25px;
+    border: solid black;
+}
+
+button:hover {
+    background-color: crimson;
+    transition: 1s ease;
+    
+}
+
+footer {
+    background-color: #26061E;
+    height: 89px;
+    color: white;
+    padding-left: 330px;
+    display: flex;
+}
+
+footer section {
+    margin-left: auto;
+    margin-right: 330px;
+}
+
+footer section img {
+    height: 48px;
+    margin: 20px;
+}
+
+li a {
+    color: white;
+}
+
+button a {
+    color: black;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 88px;
+}
+
+h6 {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 2.4em;
+    color: white;
+}

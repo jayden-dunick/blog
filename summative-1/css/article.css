@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'regular';
+    text-decoration: none;
+}
+
+body {
+    width: 1920px;
+}
+
+main {
+    margin: 32px 330px 72px;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 144px;
+    z-index: 999;
+}
+
+.logo {
+    height: 72px;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 999;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    height: 72px;
+    background-color: #26061E;
+    width: 1920px;
+    margin-top: 72px;
+}
+
+li {
+    color: white;
+    list-style-type: none;
+    width: 210px;
+    border: black solid;
+    text-align: center;
+}
+
+li h6 a:hover {
+    color: aqua;
+}
+
+.active {
+    border-bottom: solid white 2px;
+}
+
+.long {
+    width: 260px;
+    margin-right: 58px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search {
+    width: 100%;
+    border-radius: 15px;
+    height: 45px;
+    padding-left: 15px;
+    font-size: 26px;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    border: black solid;
+}
+
+#froggy {
+    margin-top: 144px;
+    height: 767px;
+    width: 1920px;
+}
+
+span {
+    margin-left: 355px;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.game {
+    background-color: crimson;
+    height: 688px;
+    width: 1253px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 415px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 0 auto 1px;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #26061E;
+    height: 89px;
+    color: white;
+    padding-left: 330px;
+    display: flex;
+}
+
+footer section {
+    margin-left: auto;
+    margin-right: 330px;
+}
+
+footer section img {
+    height: 48px;
+    margin: 20px;
+}
+
+span {}
+
+li a {
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 37px;
+    font-weight: 300;
+    width: 934px;
+    margin-top: 10px
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 27px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+h5 {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 88px;
+}
+
+h6 {
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 2.4em;
+    color: white;
+}
+
+p {
+    width: 934px;
+}

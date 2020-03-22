@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+body {
+    background-color: #111111;
+}
+
+ul {
+    display: flex;
+    background-color: darkblue;
+    margin: 0 auto;
+    height: 10em;
+}
+
+li {
+    list-style-type: none;
+    width: 14em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+li:hover {
+    background-color: crimson;
+    padding-top: 4em;
+    padding-bottom: 5em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.active {
+    background-color: dodgerblue;
+    height: 1
+}
+
+main {
+    padding-top: 5%;
+    max-width: 40%;
+    min-width: 20%;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    line-height: 1.5em;
+}
+
+img {
+    height: 20em;
+}
+
+.persona {
+    padding-right: 1em;
+}
+
+footer {
+    padding-top: 10em;
+    text-align: center;
+    padding: 1em;
+}
+
+.moodboard {
+    width: 100%;
+    height: auto;
+}
+
+.stylescape {
+    width: 100%;
+    height: auto;
+}
+
+.crop {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h3 {
+    color: skyblue;
+    font-size: 2em;
+}
+
+h4 {
+    color: crimson;
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1em;
+    color: crimson;
+}
